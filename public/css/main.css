@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{margin: 0;font-family: 'Open Sans', sans-serif;font-size: 15px;box-sizing: border-box;}
+
+a{text-decoration: none;color: blue}
+
+.text_field{width: 100%; border: 1px solid #CCC;border-radius:5px;height:35px;padding:0 9px}
+
+.gallery-photo{background-color: #EEE}
+.head_user_bar{top:74px;right: 0;}
+.head_user_bar__item{display: block;padding:4px 9px}
+.head_user_bar__item:hover{background-color: #EEE}
+
+.block_arrow_top_right {
+    width: 210px;
+    position: fixed;
+    background: #fff;
+    padding:3px 0;
+    border: 1px solid #CCC;
+}
+.block_arrow_top_right:after, .block_arrow_top_right:before {
+    content: ""; 
+    border: solid transparent;
+    position: absolute; 
+    bottom: 100%;
+    right: 8px;
+}
+.block_arrow_top_right:after {
+    border-bottom-color: #fff;
+    border-width: 8px;
+    margin-right: 0;
+}
+.block_arrow_top_right:before {
+    border-bottom-color: #CCC;
+    border-width: 9px;
+    margin-right: -1px;
+}
+.like-block{background-color: #DDD;display: inline-block;
+    padding: 7px 5px 3px 7px;
+    border-radius: 7px;cursor: pointer;transition: background 0.14s ease}
+.like-block:hover{background-color: #CCC}
+
+.like-block__active{background-image:url('/image/icon/like_active.png');}
+.like-block__in_active{background-image:url('/image/icon/like_inactive.png')}
+.like-block__icon{width: 17px;height: 17px;}
+
+.layer_gray{position: fixed;top:0;left:0;right:0;bottom:0;background-color: #000;opacity:.4;z-index: 7  }
+
+
+.head{height: 59px;border-bottom:1px solid #CCC;}
+.head-right{float: right;}
+.head-left{float: left;}
+.head-item{height: 59px;line-height:59px;padding:0 14px;display:inline-block; }
+.head-item:hover{border-bottom:3px solid blue }
+.small_photo{width:27px;height: 27px;top:7px;margin-right:0;border-radius:7px}
+.head-first-name{padding: 7px 7px 20px;cursor:pointer}
+.head-first-name:hover{background-color: #EEE}
+/*
+.head-center{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto 0;
+    width: 37%;text-align: center;}*/
+    .head-r{position: absolute;right: 14.1%}
+    .head-search{float: left;margin-left: 14.1%;position: absolute;
+    padding-top: 11px;width: 17%}
+.head-center__serarch_field{ }
+
+.content{width:51%;margin:0 auto;border-top: 0}
+
+.question-body{line-height:25px}
+
+.question-block{padding:11px 0;border-bottom: 1px solid #DDD}
+.question-bottom{margin-top:3px}
+.question-title{font-weight:bold;font-size: 17px;margin-bottom:5px;display: block;}
+.create-question-container{padding:54px 0   }
+
+.form-big-element__text_field{height: 44px;padding:9px 14px}
+
+
+.form-big-element__title{position: relative;bottom: -9px;background-color:#FFF;margin:0 14px}
+
+.form-title{font-size: 31px;text-align: center;}
+.textarea{height:73px}
+
+.button{
+    background-color: #607D8B;
+    color: #FFF;
+    border: 0;
+    font-size: 15px;
+    height: 34px;
+   line-height: 34px;
+    padding: 1px 11px;
+    border-radius: 4px;font-weight: bold;width: 100%}
+
+.nav{border-bottom: 1px solid #CCC;text-align: center;}
+
+.nav-item{display: inline-block;padding:14px 7px}
+.nav-item__active{border-bottom:3px solid blue;font-weight:bold;}
+.form-message{padding:7px 11px;background-color: #b8ffbb;border-radius: 5px}
+.form-message__title{font-weight: bold;}
+
+.form-message__error{background-color: #ffc3c3}
+
+.empty_or_not_found_block{text-align: center;padding:74px 0}
+
+.icon-repost{
+    top: 5px;background-image: url('/image/icon/earth-custom.png');width: 25px;height: 25px;}
+
+
+.footer{border-top: 1px solid #CCC;padding:11px 0;text-align: center;}
+
+
+.photo_block{background-repeat: no-repeat;background-size:cover ;background-color: #EEE}
+
+.gallery-small_photo{width:29px;height: 29px;top:7px;margin-right:3px; border-radius:7px; background-color: #DDD}
+.icon{display: inline-block;position: relative;}
+
+.gallery-photo{width: 100%;height: 240px;border-radius: 7px;background-repeat: no-repeat;background-size: cover;background-position: center;}
+.gallery-block{width: 25%;display: inline-block;margin:-3px -3px 4px}
+.content{width: 72% }
+.gallery-title{font-size:19px;margin-top:5px;margin-bottom:3px }
+.gallery-wrap{padding:7px}
